@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>插入图片和文本</title>
+  <title>Page1</title>
   <style>
     .container {
-      position: relative;
-      display: inline-block;
+      text-align: center;
     }
-    
-    .text {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      color: white;
-      font-size: 18px;
+
+    .photo {
+      display: inline-block;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 10px;
+    }
+
+    ul {
+      padding-left: 50px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="image1.jpg" alt="图片1" width="300" height="200">
-    <div class="text">文本1</div>
-  </div>
-  
-  <div class="container">
-    <img src="image2.jpg" alt="图片2" width="300" height="200">
-    <div class="text">文本2</div>
+    <h1>Self-Introduction</h1>
+    <h2>My Interests</h2>
+    <ul>
+    </ul>
+    <p>I am in IT2</p>
+    <div class="photo">
+      <img src="photo.jpg" alt="photo">
+    </div>
+    <div class="photo">
+      <img src="photo2.jpg" alt="photo2">
+    </div>
   </div>
 </body>
 </html>
